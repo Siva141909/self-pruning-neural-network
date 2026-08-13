@@ -1,0 +1,4 @@
+Lambda,Test Accuracy,Sparsity Level (%)
+1e-05,55.35,50.05
+0.0001,55.88,88.45
+0.001,55.39,99.72

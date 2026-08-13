@@ -1,0 +1,152 @@
+=== FULL EXPERIMENT === device=mps epochs=25 lambdas=[0.0, 1e-07, 1e-06, 1e-05, 0.0001]
+{
+  "python_version": "3.14.3",
+  "torch_version": "2.13.0",
+  "torchvision_version": "0.28.0",
+  "device": "mps",
+  "seed": "42"
+}
+
+--- lambda = 0 ---
+lambda=0e+00 epoch=  1 train_loss=1.6614 ce=1.6614 sparse=3622790.21 test_acc=44.73% sparsity=0.00% mean_gate=0.9523 median_gate=0.9523 q01=0.9507 q99=0.9546 grad_norm=0.003472228767350316
+lambda=0e+00 epoch=  2 train_loss=1.4415 ce=1.4415 sparse=3621997.64 test_acc=49.81% sparsity=0.00% mean_gate=0.9521 median_gate=0.9521 q01=0.9494 q99=0.9556 grad_norm=0.004108968656510115
+lambda=0e+00 epoch=  3 train_loss=1.3183 ce=1.3183 sparse=3621195.27 test_acc=51.61% sparsity=0.00% mean_gate=0.9519 median_gate=0.9519 q01=0.9481 q99=0.9564 grad_norm=0.004153786227107048
+lambda=0e+00 epoch=  4 train_loss=1.2263 ce=1.2263 sparse=3620378.57 test_acc=52.83% sparsity=0.00% mean_gate=0.9517 median_gate=0.9518 q01=0.9469 q99=0.9570 grad_norm=0.005483812652528286
+lambda=0e+00 epoch=  5 train_loss=1.1390 ce=1.1390 sparse=3619574.42 test_acc=53.40% sparsity=0.00% mean_gate=0.9515 median_gate=0.9516 q01=0.9456 q99=0.9576 grad_norm=0.006530506536364555
+lambda=0e+00 epoch=  6 train_loss=1.0589 ce=1.0589 sparse=3618761.74 test_acc=54.47% sparsity=0.00% mean_gate=0.9513 median_gate=0.9514 q01=0.9444 q99=0.9581 grad_norm=0.007763732690364122
+lambda=0e+00 epoch=  7 train_loss=0.9818 ce=0.9818 sparse=3617953.97 test_acc=54.01% sparsity=0.00% mean_gate=0.9511 median_gate=0.9513 q01=0.9432 q99=0.9586 grad_norm=0.0070687513798475266
+lambda=0e+00 epoch=  8 train_loss=0.9081 ce=0.9081 sparse=3617174.59 test_acc=53.47% sparsity=0.00% mean_gate=0.9509 median_gate=0.9512 q01=0.9420 q99=0.9590 grad_norm=0.008125916123390198
+lambda=0e+00 epoch=  9 train_loss=0.8282 ce=0.8282 sparse=3616418.98 test_acc=52.91% sparsity=0.00% mean_gate=0.9507 median_gate=0.9510 q01=0.9409 q99=0.9594 grad_norm=0.008158051408827305
+lambda=0e+00 epoch= 10 train_loss=0.7627 ce=0.7627 sparse=3615690.75 test_acc=54.74% sparsity=0.00% mean_gate=0.9505 median_gate=0.9509 q01=0.9398 q99=0.9597 grad_norm=0.00848446600139141
+lambda=0e+00 epoch= 11 train_loss=0.6960 ce=0.6960 sparse=3614995.33 test_acc=54.87% sparsity=0.00% mean_gate=0.9503 median_gate=0.9508 q01=0.9387 q99=0.9600 grad_norm=0.007801066618412733
+lambda=0e+00 epoch= 12 train_loss=0.6379 ce=0.6379 sparse=3614305.38 test_acc=54.95% sparsity=0.00% mean_gate=0.9501 median_gate=0.9507 q01=0.9376 q99=0.9603 grad_norm=0.009322017431259155
+lambda=0e+00 epoch= 13 train_loss=0.5849 ce=0.5849 sparse=3613644.14 test_acc=54.38% sparsity=0.00% mean_gate=0.9500 median_gate=0.9506 q01=0.9366 q99=0.9606 grad_norm=0.00947227980941534
+lambda=0e+00 epoch= 14 train_loss=0.5497 ce=0.5497 sparse=3612988.43 test_acc=53.63% sparsity=0.00% mean_gate=0.9498 median_gate=0.9505 q01=0.9356 q99=0.9608 grad_norm=0.011754494160413742
+lambda=0e+00 epoch= 15 train_loss=0.4974 ce=0.4974 sparse=3612354.75 test_acc=53.82% sparsity=0.00% mean_gate=0.9496 median_gate=0.9504 q01=0.9346 q99=0.9611 grad_norm=0.009440077468752861
+lambda=0e+00 epoch= 16 train_loss=0.4576 ce=0.4576 sparse=3611768.15 test_acc=54.32% sparsity=0.00% mean_gate=0.9495 median_gate=0.9503 q01=0.9337 q99=0.9613 grad_norm=0.014657172374427319
+lambda=0e+00 epoch= 17 train_loss=0.4335 ce=0.4335 sparse=3611181.17 test_acc=53.04% sparsity=0.00% mean_gate=0.9493 median_gate=0.9503 q01=0.9328 q99=0.9615 grad_norm=0.013272535987198353
+lambda=0e+00 epoch= 18 train_loss=0.4039 ce=0.4039 sparse=3610598.32 test_acc=53.74% sparsity=0.00% mean_gate=0.9492 median_gate=0.9502 q01=0.9318 q99=0.9617 grad_norm=0.01617570035159588
+lambda=0e+00 epoch= 19 train_loss=0.3719 ce=0.3719 sparse=3610039.81 test_acc=53.68% sparsity=0.00% mean_gate=0.9490 median_gate=0.9501 q01=0.9310 q99=0.9619 grad_norm=0.012839438393712044
+lambda=0e+00 epoch= 20 train_loss=0.3643 ce=0.3643 sparse=3609481.49 test_acc=53.73% sparsity=0.00% mean_gate=0.9489 median_gate=0.9500 q01=0.9300 q99=0.9621 grad_norm=0.019696883857250214
+lambda=0e+00 epoch= 21 train_loss=0.3356 ce=0.3356 sparse=3608931.24 test_acc=54.83% sparsity=0.00% mean_gate=0.9487 median_gate=0.9500 q01=0.9292 q99=0.9622 grad_norm=0.01387385930866003
+lambda=0e+00 epoch= 22 train_loss=0.3183 ce=0.3183 sparse=3608409.00 test_acc=53.83% sparsity=0.00% mean_gate=0.9486 median_gate=0.9499 q01=0.9283 q99=0.9624 grad_norm=0.012897462584078312
+lambda=0e+00 epoch= 23 train_loss=0.3216 ce=0.3216 sparse=3607869.63 test_acc=52.78% sparsity=0.00% mean_gate=0.9485 median_gate=0.9498 q01=0.9274 q99=0.9626 grad_norm=0.01866062358021736
+lambda=0e+00 epoch= 24 train_loss=0.3001 ce=0.3001 sparse=3607335.69 test_acc=54.08% sparsity=0.00% mean_gate=0.9483 median_gate=0.9497 q01=0.9266 q99=0.9627 grad_norm=0.007582525257021189
+lambda=0e+00 epoch= 25 train_loss=0.2785 ce=0.2785 sparse=3606838.46 test_acc=54.16% sparsity=0.00% mean_gate=0.9482 median_gate=0.9497 q01=0.9258 q99=0.9629 grad_norm=0.011348842643201351
+
+--- lambda = 1e-07 ---
+lambda=1e-07 epoch=  1 train_loss=2.0242 ce=1.6621 sparse=3620651.19 test_acc=44.72% sparsity=0.00% mean_gate=0.9512 median_gate=0.9514 q01=0.9474 q99=0.9541 grad_norm=0.0037287406157702208
+lambda=1e-07 epoch=  2 train_loss=1.8076 ce=1.4460 sparse=3615670.13 test_acc=49.61% sparsity=0.00% mean_gate=0.9499 median_gate=0.9503 q01=0.9410 q99=0.9549 grad_norm=0.003946374636143446
+lambda=1e-07 epoch=  3 train_loss=1.6854 ce=1.3243 sparse=3610774.50 test_acc=51.53% sparsity=0.00% mean_gate=0.9486 median_gate=0.9493 q01=0.9325 q99=0.9554 grad_norm=0.004385659471154213
+lambda=1e-07 epoch=  4 train_loss=1.5844 ce=1.2238 sparse=3605867.61 test_acc=53.73% sparsity=0.00% mean_gate=0.9473 median_gate=0.9484 q01=0.9216 q99=0.9559 grad_norm=0.00588475214317441
+lambda=1e-07 epoch=  5 train_loss=1.5018 ce=1.1417 sparse=3600866.82 test_acc=53.72% sparsity=0.00% mean_gate=0.9460 median_gate=0.9475 q01=0.9078 q99=0.9564 grad_norm=0.006476195994764566
+lambda=1e-07 epoch=  6 train_loss=1.4151 ce=1.0555 sparse=3595652.34 test_acc=53.99% sparsity=0.00% mean_gate=0.9446 median_gate=0.9467 q01=0.8900 q99=0.9568 grad_norm=0.006442168261855841
+lambda=1e-07 epoch=  7 train_loss=1.3374 ce=0.9784 sparse=3590081.06 test_acc=54.20% sparsity=0.00% mean_gate=0.9431 median_gate=0.9460 q01=0.8663 q99=0.9571 grad_norm=0.006058818660676479
+lambda=1e-07 epoch=  8 train_loss=1.2576 ce=0.8992 sparse=3583935.35 test_acc=54.51% sparsity=0.00% mean_gate=0.9414 median_gate=0.9453 q01=0.8356 q99=0.9575 grad_norm=0.008560438640415668
+lambda=1e-07 epoch=  9 train_loss=1.1895 ce=0.8318 sparse=3576987.69 test_acc=53.53% sparsity=0.00% mean_gate=0.9394 median_gate=0.9446 q01=0.7959 q99=0.9578 grad_norm=0.007300032768398523
+lambda=1e-07 epoch= 10 train_loss=1.1165 ce=0.7596 sparse=3568967.30 test_acc=53.88% sparsity=0.00% mean_gate=0.9371 median_gate=0.9440 q01=0.7436 q99=0.9581 grad_norm=0.008174595423042774
+lambda=1e-07 epoch= 11 train_loss=1.0428 ce=0.6868 sparse=3559607.17 test_acc=53.45% sparsity=0.00% mean_gate=0.9345 median_gate=0.9435 q01=0.6800 q99=0.9583 grad_norm=0.007737624924629927
+lambda=1e-07 epoch= 12 train_loss=0.9911 ce=0.6362 sparse=3548838.62 test_acc=54.86% sparsity=0.00% mean_gate=0.9315 median_gate=0.9429 q01=0.6074 q99=0.9586 grad_norm=0.010975915938615799
+lambda=1e-07 epoch= 13 train_loss=0.9372 ce=0.5835 sparse=3536729.03 test_acc=53.27% sparsity=0.00% mean_gate=0.9281 median_gate=0.9424 q01=0.5296 q99=0.9588 grad_norm=0.014377625659108162
+lambda=1e-07 epoch= 14 train_loss=0.8943 ce=0.5420 sparse=3523590.42 test_acc=53.93% sparsity=0.00% mean_gate=0.9246 median_gate=0.9420 q01=0.4541 q99=0.9590 grad_norm=0.01017802208662033
+lambda=1e-07 epoch= 15 train_loss=0.8375 ce=0.4865 sparse=3510058.48 test_acc=53.87% sparsity=0.00% mean_gate=0.9210 median_gate=0.9415 q01=0.3849 q99=0.9592 grad_norm=0.012777444906532764
+lambda=1e-07 epoch= 16 train_loss=0.8116 ce=0.4620 sparse=3496247.00 test_acc=54.13% sparsity=0.00% mean_gate=0.9174 median_gate=0.9411 q01=0.3234 q99=0.9594 grad_norm=0.01277236733585596
+lambda=1e-07 epoch= 17 train_loss=0.7703 ce=0.4220 sparse=3482459.87 test_acc=53.39% sparsity=0.00% mean_gate=0.9137 median_gate=0.9407 q01=0.2714 q99=0.9596 grad_norm=0.013225937262177467
+lambda=1e-07 epoch= 18 train_loss=0.7450 ce=0.3982 sparse=3468854.52 test_acc=53.36% sparsity=0.00% mean_gate=0.9102 median_gate=0.9403 q01=0.2284 q99=0.9597 grad_norm=0.011918812058866024
+lambda=1e-07 epoch= 19 train_loss=0.7313 ce=0.3858 sparse=3455664.79 test_acc=53.93% sparsity=0.00% mean_gate=0.9068 median_gate=0.9399 q01=0.1933 q99=0.9599 grad_norm=0.00987300742417574
+lambda=1e-07 epoch= 20 train_loss=0.6946 ce=0.3503 sparse=3442985.03 test_acc=53.33% sparsity=0.00% mean_gate=0.9035 median_gate=0.9396 q01=0.1643 q99=0.9601 grad_norm=0.00935125071555376
+lambda=1e-07 epoch= 21 train_loss=0.6840 ce=0.3410 sparse=3430757.22 test_acc=53.91% sparsity=0.00% mean_gate=0.9004 median_gate=0.9392 q01=0.1409 q99=0.9602 grad_norm=0.018964892253279686
+lambda=1e-07 epoch= 22 train_loss=0.6482 ce=0.3063 sparse=3419110.91 test_acc=54.12% sparsity=0.00% mean_gate=0.8974 median_gate=0.9389 q01=0.1214 q99=0.9604 grad_norm=0.021676771342754364
+lambda=1e-07 epoch= 23 train_loss=0.6501 ce=0.3093 sparse=3408025.98 test_acc=53.42% sparsity=0.00% mean_gate=0.8946 median_gate=0.9385 q01=0.1054 q99=0.9605 grad_norm=0.02049153484404087
+lambda=1e-07 epoch= 24 train_loss=0.6297 ce=0.2899 sparse=3397519.02 test_acc=53.63% sparsity=0.00% mean_gate=0.8919 median_gate=0.9382 q01=0.0920 q99=0.9606 grad_norm=0.011321648955345154
+lambda=1e-07 epoch= 25 train_loss=0.6282 ce=0.2895 sparse=3387734.20 test_acc=52.77% sparsity=0.00% mean_gate=0.8894 median_gate=0.9379 q01=0.0809 q99=0.9607 grad_norm=0.017405765131115913
+
+--- lambda = 1e-06 ---
+lambda=1e-06 epoch=  1 train_loss=5.2678 ce=1.6608 sparse=3606980.27 test_acc=44.48% sparsity=0.00% mean_gate=0.9437 median_gate=0.9437 q01=0.9346 q99=0.9526 grad_norm=0.0035083468537777662
+lambda=1e-06 epoch=  2 train_loss=5.0114 ce=1.4422 sparse=3569273.08 test_acc=49.71% sparsity=0.00% mean_gate=0.9327 median_gate=0.9338 q01=0.9050 q99=0.9524 grad_norm=0.0041342442855238914
+lambda=1e-06 epoch=  3 train_loss=4.8412 ce=1.3183 sparse=3522913.04 test_acc=51.91% sparsity=0.00% mean_gate=0.9192 median_gate=0.9230 q01=0.8568 q99=0.9522 grad_norm=0.004132344387471676
+lambda=1e-06 epoch=  4 train_loss=4.6892 ce=1.2228 sparse=3466442.84 test_acc=52.60% sparsity=0.00% mean_gate=0.9030 median_gate=0.9119 q01=0.7821 q99=0.9521 grad_norm=0.0059107206761837006
+lambda=1e-06 epoch=  5 train_loss=4.5365 ce=1.1372 sparse=3399258.16 test_acc=53.67% sparsity=0.00% mean_gate=0.8840 median_gate=0.9006 q01=0.6792 q99=0.9520 grad_norm=0.006383300758898258
+lambda=1e-06 epoch=  6 train_loss=4.3738 ce=1.0509 sparse=3322836.94 test_acc=53.64% sparsity=0.00% mean_gate=0.8630 median_gate=0.8894 q01=0.5600 q99=0.9519 grad_norm=0.007062681019306183
+lambda=1e-06 epoch=  7 train_loss=4.2113 ce=0.9701 sparse=3241212.93 test_acc=54.87% sparsity=0.00% mean_gate=0.8412 median_gate=0.8785 q01=0.4440 q99=0.9518 grad_norm=0.006925699766725302
+lambda=1e-06 epoch=  8 train_loss=4.0497 ce=0.8905 sparse=3159242.09 test_acc=54.23% sparsity=0.00% mean_gate=0.8201 median_gate=0.8681 q01=0.3459 q99=0.9518 grad_norm=0.007998655550181866
+lambda=1e-06 epoch=  9 train_loss=3.8912 ce=0.8098 sparse=3081318.73 test_acc=52.75% sparsity=0.00% mean_gate=0.8003 median_gate=0.8582 q01=0.2690 q99=0.9518 grad_norm=0.008289068005979061
+lambda=1e-06 epoch= 10 train_loss=3.7460 ce=0.7367 sparse=3009337.11 test_acc=55.00% sparsity=0.00% mean_gate=0.7822 median_gate=0.8488 q01=0.2108 q99=0.9518 grad_norm=0.008695258758962154
+lambda=1e-06 epoch= 11 train_loss=3.6048 ce=0.6609 sparse=2943939.92 test_acc=54.22% sparsity=0.00% mean_gate=0.7659 median_gate=0.8399 q01=0.1669 q99=0.9518 grad_norm=0.010862587951123714
+lambda=1e-06 epoch= 12 train_loss=3.4895 ce=0.6045 sparse=2885046.68 test_acc=53.16% sparsity=0.00% mean_gate=0.7513 median_gate=0.8315 q01=0.1336 q99=0.9517 grad_norm=0.013430018909275532
+lambda=1e-06 epoch= 13 train_loss=3.3806 ce=0.5485 sparse=2832100.90 test_acc=54.37% sparsity=0.00% mean_gate=0.7381 median_gate=0.8236 q01=0.1081 q99=0.9518 grad_norm=0.011379379779100418
+lambda=1e-06 epoch= 14 train_loss=3.2818 ce=0.4975 sparse=2784336.38 test_acc=54.41% sparsity=0.00% mean_gate=0.7261 median_gate=0.8160 q01=0.0883 q99=0.9518 grad_norm=0.013803268782794476
+lambda=1e-06 epoch= 15 train_loss=3.1945 ce=0.4535 sparse=2740996.79 test_acc=53.76% sparsity=0.00% mean_gate=0.7152 median_gate=0.8087 q01=0.0727 q99=0.9518 grad_norm=0.013064433820545673
+lambda=1e-06 epoch= 16 train_loss=3.1239 ce=0.4226 sparse=2701282.96 test_acc=53.07% sparsity=0.00% mean_gate=0.7052 median_gate=0.8016 q01=0.0603 q99=0.9518 grad_norm=0.014772151596844196
+lambda=1e-06 epoch= 17 train_loss=3.0467 ce=0.3819 sparse=2664784.62 test_acc=53.30% sparsity=0.00% mean_gate=0.6960 median_gate=0.7948 q01=0.0503 q99=0.9518 grad_norm=0.013311618939042091
+lambda=1e-06 epoch= 18 train_loss=2.9834 ce=0.3526 sparse=2630848.76 test_acc=53.98% sparsity=0.00% mean_gate=0.6874 median_gate=0.7880 q01=0.0423 q99=0.9518 grad_norm=0.013492612168192863
+lambda=1e-06 epoch= 19 train_loss=2.9299 ce=0.3309 sparse=2599047.22 test_acc=53.43% sparsity=0.00% mean_gate=0.6793 median_gate=0.7814 q01=0.0357 q99=0.9518 grad_norm=0.016937285661697388
+lambda=1e-06 epoch= 20 train_loss=2.8738 ce=0.3046 sparse=2569189.93 test_acc=52.90% sparsity=0.00% mean_gate=0.6717 median_gate=0.7750 q01=0.0302 q99=0.9517 grad_norm=0.01898687519133091
+lambda=1e-06 epoch= 21 train_loss=2.8355 ce=0.2946 sparse=2540886.53 test_acc=54.23% sparsity=0.00% mean_gate=0.6644 median_gate=0.7685 q01=0.0258 q99=0.9517 grad_norm=0.0181892029941082
+lambda=1e-06 epoch= 22 train_loss=2.7994 ce=0.2854 sparse=2514052.64 test_acc=52.91% sparsity=0.00% mean_gate=0.6575 median_gate=0.7623 q01=0.0220 q99=0.9518 grad_norm=0.02479913830757141
+lambda=1e-06 epoch= 23 train_loss=2.7652 ce=0.2766 sparse=2488623.11 test_acc=53.49% sparsity=0.00% mean_gate=0.6510 median_gate=0.7562 q01=0.0189 q99=0.9517 grad_norm=0.01705865003168583
+lambda=1e-06 epoch= 24 train_loss=2.6942 ce=0.2298 sparse=2464408.74 test_acc=52.89% sparsity=0.00% mean_gate=0.6448 median_gate=0.7501 q01=0.0163 q99=0.9517 grad_norm=0.012895612046122551
+lambda=1e-06 epoch= 25 train_loss=2.6796 ce=0.2388 sparse=2440825.81 test_acc=53.45% sparsity=0.00% mean_gate=0.6387 median_gate=0.7440 q01=0.0141 q99=0.9517 grad_norm=0.01918964646756649
+
+--- lambda = 1e-05 ---
+lambda=1e-05 epoch=  1 train_loss=37.5318 ce=1.6590 sparse=3587275.76 test_acc=44.66% sparsity=0.00% mean_gate=0.9319 median_gate=0.9305 q01=0.9300 q99=0.9492 grad_norm=0.003979234024882317
+lambda=1e-05 epoch=  2 train_loss=36.2940 ce=1.4397 sparse=3485428.69 test_acc=50.06% sparsity=0.00% mean_gate=0.8980 median_gate=0.8937 q01=0.8913 q99=0.9458 grad_norm=0.0048442925326526165
+lambda=1e-05 epoch=  3 train_loss=34.5253 ce=1.3142 sparse=3321102.86 test_acc=51.36% sparsity=0.00% mean_gate=0.8444 median_gate=0.8344 q01=0.8271 q99=0.9425 grad_norm=0.005618719384074211
+lambda=1e-05 epoch=  4 train_loss=31.9519 ce=1.2112 sparse=3074068.10 test_acc=53.61% sparsity=0.00% mean_gate=0.7681 median_gate=0.7485 q01=0.7307 q99=0.9392 grad_norm=0.0076696304604411125
+lambda=1e-05 epoch=  5 train_loss=28.5931 ce=1.1110 sparse=2748209.48 test_acc=54.31% sparsity=0.00% mean_gate=0.6750 median_gate=0.6432 q01=0.6090 q99=0.9362 grad_norm=0.008271842263638973
+lambda=1e-05 epoch=  6 train_loss=24.8617 ce=1.0104 sparse=2385136.57 test_acc=54.67% sparsity=0.00% mean_gate=0.5798 median_gate=0.5350 q01=0.4832 q99=0.9334 grad_norm=0.012262539938092232
+lambda=1e-05 epoch=  7 train_loss=21.3156 ce=0.9145 sparse=2040113.41 test_acc=55.50% sparsity=0.00% mean_gate=0.4952 median_gate=0.4389 q01=0.3734 q99=0.9308 grad_norm=0.012500620447099209
+lambda=1e-05 epoch=  8 train_loss=18.2857 ce=0.8113 sparse=1747443.98 test_acc=55.44% sparsity=0.00% mean_gate=0.4262 median_gate=0.3607 q01=0.2869 q99=0.9283 grad_norm=0.015419797971844673
+lambda=1e-05 epoch=  9 train_loss=15.8570 ce=0.7169 sparse=1514001.14 test_acc=55.08% sparsity=0.00% mean_gate=0.3720 median_gate=0.2999 q01=0.2218 q99=0.9261 grad_norm=0.018436500802636147
+lambda=1e-05 epoch= 10 train_loss=13.9438 ce=0.6251 sparse=1331861.71 test_acc=56.18% sparsity=0.00% mean_gate=0.3299 median_gate=0.2528 q01=0.1734 q99=0.9241 grad_norm=0.022619344294071198
+lambda=1e-05 epoch= 11 train_loss=12.4353 ce=0.5410 sparse=1189431.44 test_acc=55.70% sparsity=0.00% mean_gate=0.2967 median_gate=0.2162 q01=0.1372 q99=0.9221 grad_norm=0.019105374813079834
+lambda=1e-05 epoch= 12 train_loss=11.2316 ce=0.4654 sparse=1076620.02 test_acc=55.76% sparsity=0.00% mean_gate=0.2703 median_gate=0.1872 q01=0.1098 q99=0.9203 grad_norm=0.02610171027481556
+lambda=1e-05 epoch= 13 train_loss=10.2554 ce=0.3974 sparse=985803.57 test_acc=55.68% sparsity=0.00% mean_gate=0.2487 median_gate=0.1640 q01=0.0887 q99=0.9186 grad_norm=0.0331248864531517
+lambda=1e-05 epoch= 14 train_loss=9.4557 ce=0.3417 sparse=911403.74 test_acc=56.07% sparsity=0.00% mean_gate=0.2310 median_gate=0.1451 q01=0.0723 q99=0.9169 grad_norm=0.032614149153232574
+lambda=1e-05 epoch= 15 train_loss=8.7807 ce=0.2862 sparse=849445.50 test_acc=55.33% sparsity=0.00% mean_gate=0.2160 median_gate=0.1293 q01=0.0593 q99=0.9153 grad_norm=0.022648707032203674
+lambda=1e-05 epoch= 16 train_loss=8.2090 ce=0.2408 sparse=796824.20 test_acc=55.42% sparsity=0.00% mean_gate=0.2032 median_gate=0.1160 q01=0.0490 q99=0.9138 grad_norm=0.029356159269809723
+lambda=1e-05 epoch= 17 train_loss=7.7190 ce=0.2052 sparse=751373.82 test_acc=55.64% sparsity=0.00% mean_gate=0.1921 median_gate=0.1046 q01=0.0406 q99=0.9122 grad_norm=0.026753008365631104
+lambda=1e-05 epoch= 18 train_loss=7.3027 ce=0.1860 sparse=711664.32 test_acc=55.69% sparsity=0.00% mean_gate=0.1823 median_gate=0.0947 q01=0.0339 q99=0.9107 grad_norm=0.04480166733264923
+lambda=1e-05 epoch= 19 train_loss=6.9348 ce=0.1669 sparse=676793.21 test_acc=55.17% sparsity=0.00% mean_gate=0.1737 median_gate=0.0861 q01=0.0283 q99=0.9093 grad_norm=0.03179856762290001
+lambda=1e-05 epoch= 20 train_loss=6.6104 ce=0.1506 sparse=645978.20 test_acc=55.77% sparsity=0.00% mean_gate=0.1661 median_gate=0.0786 q01=0.0237 q99=0.9078 grad_norm=0.03720094636082649
+lambda=1e-05 epoch= 21 train_loss=6.3284 ce=0.1423 sparse=618613.66 test_acc=55.62% sparsity=0.00% mean_gate=0.1593 median_gate=0.0720 q01=0.0200 q99=0.9064 grad_norm=0.03901161253452301
+lambda=1e-05 epoch= 22 train_loss=6.0590 ce=0.1178 sparse=594122.96 test_acc=55.63% sparsity=0.00% mean_gate=0.1532 median_gate=0.0662 q01=0.0168 q99=0.9050 grad_norm=0.06377173215150833
+lambda=1e-05 epoch= 23 train_loss=5.8277 ce=0.1096 sparse=571812.77 test_acc=55.20% sparsity=0.00% mean_gate=0.1476 median_gate=0.0609 q01=0.0142 q99=0.9036 grad_norm=0.04287987947463989
+lambda=1e-05 epoch= 24 train_loss=5.6028 ce=0.0892 sparse=551363.93 test_acc=55.62% sparsity=0.00% mean_gate=0.1424 median_gate=0.0562 q01=0.0120 q99=0.9021 grad_norm=0.029570454731583595
+lambda=1e-05 epoch= 25 train_loss=5.4177 ce=0.0944 sparse=532327.50 test_acc=54.70% sparsity=0.00% mean_gate=0.1376 median_gate=0.0518 q01=0.0102 q99=0.9007 grad_norm=0.05836371332406998
+
+--- lambda = 0.0001 ---
+lambda=1e-04 epoch=  1 train_loss=360.0179 ce=1.6596 sparse=3583583.45 test_acc=44.63% sparsity=0.00% mean_gate=0.9296 median_gate=0.9295 q01=0.9294 q99=0.9335 grad_norm=0.013357164338231087
+lambda=1e-04 epoch=  2 train_loss=348.2393 ce=1.4417 sparse=3467976.53 test_acc=50.03% sparsity=0.00% mean_gate=0.8903 median_gate=0.8898 q01=0.8897 q99=0.9048 grad_norm=0.019657567143440247
+lambda=1e-04 epoch=  3 train_loss=328.5597 ce=1.3166 sparse=3272431.44 test_acc=51.75% sparsity=0.00% mean_gate=0.8251 median_gate=0.8237 q01=0.8236 q99=0.8638 grad_norm=0.028765587136149406
+lambda=1e-04 epoch=  4 train_loss=297.6548 ce=1.2088 sparse=2964460.57 test_acc=52.71% sparsity=0.00% mean_gate=0.7281 median_gate=0.7252 q01=0.7249 q99=0.8108 grad_norm=0.03993966430425644
+lambda=1e-04 epoch=  5 train_loss=255.5846 ce=1.1119 sparse=2544726.71 test_acc=54.75% sparsity=0.00% mean_gate=0.6072 median_gate=0.6020 q01=0.6015 q99=0.7490 grad_norm=0.048962537199258804
+lambda=1e-04 epoch=  6 train_loss=208.2652 ce=1.0105 sparse=2072546.88 test_acc=55.32% sparsity=0.00% mean_gate=0.4838 median_gate=0.4764 q01=0.4756 q99=0.6845 grad_norm=0.05345267429947853
+lambda=1e-04 epoch=  7 train_loss=163.9807 ce=0.9176 sparse=1630630.97 test_acc=56.37% sparsity=0.00% mean_gate=0.3770 median_gate=0.3677 q01=0.3667 q99=0.6224 grad_norm=0.04916522651910782
+lambda=1e-04 epoch=  8 train_loss=127.6173 ce=0.8308 sparse=1267865.02 test_acc=56.30% sparsity=0.00% mean_gate=0.2932 median_gate=0.2826 q01=0.2814 q99=0.5649 grad_norm=0.04818854480981827
+lambda=1e-04 epoch=  9 train_loss=99.7736 ce=0.7576 sparse=990159.81 test_acc=56.23% sparsity=0.00% mean_gate=0.2303 median_gate=0.2189 q01=0.2175 q99=0.5143 grad_norm=0.045452143996953964
+lambda=1e-04 epoch= 10 train_loss=78.9802 ce=0.6849 sparse=782952.59 test_acc=57.00% sparsity=0.00% mean_gate=0.1835 median_gate=0.1716 q01=0.1700 q99=0.4689 grad_norm=0.05401613935828209
+lambda=1e-04 epoch= 11 train_loss=63.4682 ce=0.6187 sparse=628494.41 test_acc=56.74% sparsity=0.00% mean_gate=0.1485 median_gate=0.1363 q01=0.1345 q99=0.4301 grad_norm=0.04416150599718094
+lambda=1e-04 epoch= 12 train_loss=51.7895 ce=0.5683 sparse=512211.80 test_acc=56.95% sparsity=0.00% mean_gate=0.1220 median_gate=0.1096 q01=0.1076 q99=0.3960 grad_norm=0.05940284579992294
+lambda=1e-04 epoch= 13 train_loss=42.8587 ce=0.5106 sparse=423481.14 test_acc=56.38% sparsity=0.00% mean_gate=0.1015 median_gate=0.0891 q01=0.0869 q99=0.3661 grad_norm=0.05740724503993988
+lambda=1e-04 epoch= 14 train_loss=35.9345 ce=0.4579 sparse=354766.02 test_acc=56.52% sparsity=0.00% mean_gate=0.0856 median_gate=0.0732 q01=0.0708 q99=0.3398 grad_norm=0.05375789478421211
+lambda=1e-04 epoch= 15 train_loss=30.4905 ce=0.4117 sparse=300788.07 test_acc=57.17% sparsity=0.00% mean_gate=0.0730 median_gate=0.0608 q01=0.0581 q99=0.3159 grad_norm=0.049238044768571854
+lambda=1e-04 epoch= 16 train_loss=26.1506 ce=0.3671 sparse=257834.73 test_acc=56.35% sparsity=0.00% mean_gate=0.0629 median_gate=0.0508 q01=0.0479 q99=0.2951 grad_norm=0.05438084527850151
+lambda=1e-04 epoch= 17 train_loss=22.6522 ce=0.3257 sparse=223265.51 test_acc=56.40% sparsity=0.00% mean_gate=0.0547 median_gate=0.0428 q01=0.0397 q99=0.2764 grad_norm=0.06832835078239441
+lambda=1e-04 epoch= 18 train_loss=19.8008 ce=0.2891 sparse=195117.34 test_acc=56.58% sparsity=0.00% mean_gate=0.0481 median_gate=0.0364 q01=0.0331 q99=0.2597 grad_norm=0.0682428628206253
+lambda=1e-04 epoch= 19 train_loss=17.4454 ce=0.2512 sparse=171942.37 test_acc=56.66% sparsity=0.00% mean_gate=0.0425 median_gate=0.0311 q01=0.0276 q99=0.2443 grad_norm=0.07336831837892532
+lambda=1e-04 epoch= 20 train_loss=15.4864 ce=0.2203 sparse=152661.12 test_acc=56.58% sparsity=0.00% mean_gate=0.0379 median_gate=0.0267 q01=0.0231 q99=0.2303 grad_norm=0.06567639112472534
+lambda=1e-04 epoch= 21 train_loss=13.8419 ce=0.1934 sparse=136485.45 test_acc=56.73% sparsity=0.00% mean_gate=0.0340 median_gate=0.0231 q01=0.0194 q99=0.2173 grad_norm=0.04557057097554207
+lambda=1e-04 epoch= 22 train_loss=12.4524 ce=0.1718 sparse=122806.12 test_acc=56.53% sparsity=0.00% mean_gate=0.0307 median_gate=0.0201 q01=0.0163 q99=0.2057 grad_norm=0.05509153753519058
+lambda=1e-04 epoch= 23 train_loss=11.2594 ce=0.1453 sparse=111140.44 test_acc=56.31% sparsity=0.00% mean_gate=0.0278 median_gate=0.0175 q01=0.0138 q99=0.1947 grad_norm=0.07745714485645294
+lambda=1e-04 epoch= 24 train_loss=10.2411 ce=0.1307 sparse=101103.70 test_acc=56.34% sparsity=0.00% mean_gate=0.0254 median_gate=0.0154 q01=0.0116 q99=0.1841 grad_norm=0.060077965259552
+lambda=1e-04 epoch= 25 train_loss=9.3507 ce=0.1094 sparse=92412.77 test_acc=55.29% sparsity=14.25% mean_gate=0.0232 median_gate=0.0135 q01=0.0098 q99=0.1747 grad_norm=0.048258502036333084
+
+=== FULL EXPERIMENT SUMMARY (final epoch of each run) ===
+lambda=0: test_acc=54.16% sparsity=0.0000% mean=0.9482 median=0.9497 q01=0.9258 q05=0.9334 q25=0.9436 q75=0.9534 q95=0.9591 q99=0.9629 min=0.880378 max=0.9767 pruned=0/3803648
+lambda=1e-07: test_acc=52.77% sparsity=0.0000% mean=0.8894 median=0.9379 q01=0.0809 q05=0.3986 q25=0.9216 q75=0.9475 q95=0.9560 q99=0.9607 min=0.074154 max=0.9775 pruned=0/3803648
+lambda=1e-06: test_acc=53.45% sparsity=0.0000% mean=0.6387 median=0.7440 q01=0.0141 q05=0.0236 q25=0.4501 q75=0.8761 q95=0.9372 q99=0.9517 min=0.013878 max=0.9711 pruned=0/3803648
+lambda=1e-05: test_acc=54.70% sparsity=0.0000% mean=0.1376 median=0.0518 q01=0.0102 q05=0.0104 q25=0.0202 q75=0.1606 q95=0.6165 q99=0.9007 min=0.010186 max=0.9696 pruned=0/3803648
+lambda=0.0001: test_acc=55.29% sparsity=14.2481% mean=0.0232 median=0.0135 q01=0.0098 q05=0.0098 q25=0.0105 q75=0.0218 q95=0.0540 q99=0.1747 min=0.009785 max=0.9858 pruned=541947/3803648
+
+Best-model selection and the final gate-distribution plot are deferred pending review.

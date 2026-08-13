@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+
+# CIFAR-10 dataset (auto-downloaded by get_dataloaders(); ~340MB, not committed)
+data/
+
+# Model checkpoints (large binary artifacts, regenerable via the commands in README.md)
+results/checkpoints/
+results/checkpoints_*/
+
+# Editor/IDE
+.vscode/
+.idea/
