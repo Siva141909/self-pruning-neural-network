@@ -232,13 +232,15 @@ Result files actually present in `results/`:
 
 ```
 results/
-├── results_table.csv                          # Lambda / Test Accuracy / Sparsity (primary run)
-├── final_gate_summary.csv                      # per-λ gate quantile breakdown (primary run)
-├── full_epoch_logs.csv                         # per-epoch logs (primary run)
-├── baseline50_epoch_logs.csv / *_results_table.csv / *_gate_summary.csv
-├── extended_epoch_logs.csv / *_results_table.csv / *_gate_summary.csv
+├── results_table.csv                          # Lambda / Test Accuracy / Sparsity (original 25-epoch exploratory sweep — see report.md §8.2)
+├── final_gate_summary.csv                      # per-λ gate quantile breakdown (same 25-epoch exploratory sweep)
+├── full_epoch_logs.csv                         # per-epoch logs (same 25-epoch exploratory sweep)
+├── baseline50_epoch_logs.csv / *_results_table.csv / *_gate_summary.csv   # primary run, λ=0, 50 epochs
+├── extended_epoch_logs.csv / *_results_table.csv / *_gate_summary.csv    # primary run, λ=1e-5/1e-4/1e-3, 50 epochs
 ├── extended_diagnostic_{sparsity,accuracy,mean_gate}_vs_epoch.png
 └── gate_distribution_lambda_1e-4.png           # final report plot
 ```
+
+Note: `results_table.csv` / `final_gate_summary.csv` / `full_epoch_logs.csv` hold the original 25-epoch sweep across λ={0, 1e-7, 1e-6, 1e-5, 1e-4} (its λ=1e-7/1e-6 rows are the exploratory numbers reported in report.md §8.2). The actual **primary** 50-epoch matched comparison (report.md §8.1, and the results table above) is assembled from `baseline50_*` (λ=0) and `extended_*` (λ=1e-5, 1e-4, 1e-3).
 
 See `report.md` for the full methodology, mathematical formulation, complete results tables, accuracy-vs-sparsity analysis, and limitations.
